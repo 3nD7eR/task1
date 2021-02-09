@@ -104,16 +104,17 @@ let inputNumber3, inputNumber4, lengthRectangle2, widthRectangle2;
 function getDrawingPage() {
 	document.querySelector('body').insertAdjacentHTML('beforeend',
 		'<header>' +
-		'<h1>IT IS RECTANGLES</h1>' + '<h2>input the sides of the rectangles</h2>' +
-		'<h3>(1,2,3,4,5,6,7,8,9,10; you can change the values of the sides again then you press the button and so many times)</h3>' +
+		'<h1>RECTANGLES</h1>' + '<h2>Input the sides of the rectangles.</h2>' +
+		'<h3>(1,2,3,4,5,6,7,8,9,10; you can change the values of the sides again then press the button. You can' +
+		' repeat the action many times.)</h3>' +
 		'<div class="input">' +
-		'<input id="numberIn1" type="text" autocomplete="off" placeholder="the side 1 of the 1st rectangle"' +
+		'<input id="numberIn1" type="text" autocomplete="off" placeholder="side 1 of the 1st rectangle"' +
 		' value=""/>' +
-		'<input id="numberIn2" type="text" autocomplete="off" placeholder="the side 2 of the 1st rectangle"' +
+		'<input id="numberIn2" type="text" autocomplete="off" placeholder="side 2 of the 1st rectangle"' +
 		' value=""/>' +
-		'<input id="numberIn3" type="text" autocomplete="off" placeholder="the side 1 of the 2nd rectangle"' +
+		'<input id="numberIn3" type="text" autocomplete="off" placeholder="side 1 of the 2nd rectangle"' +
 		' value=""/>' +
-		'<input id="numberIn4" type="text" autocomplete="off" placeholder="the side 2 of the 2nd rectangle"' +
+		'<input id="numberIn4" type="text" autocomplete="off" placeholder="side 2 of the 2nd rectangle"' +
 		' value=""/>' +
 		'<button type="submit">▲</button>' +
 		'</div>' +
