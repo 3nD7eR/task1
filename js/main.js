@@ -119,7 +119,7 @@ function getDrawingPage() {
 		'</div>' +
 		'</header>' +
 		'<main></main>' +
-		'<footer>© Created by Erik Dubenko erikod02020@gmail.com</footer>');
+		'<footer>© Created by Erik Dubenko erikod0202@gmail.com</footer>');
 }
 
 function getDrawingRectangles(heightBox1, widthBox1, heightBox2, widthBox2) {
