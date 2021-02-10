@@ -91,12 +91,7 @@ let inputNumber3, inputNumber4, lengthRectangle2, widthRectangle2;
 		lengthRectangle2 = inputNumber4;
 		widthRectangle2 = inputNumber3;
 	}
-	if (lengthRectangle1 === widthRectangle1) {
-	} else {
-	}
-	if (lengthRectangle2 === widthRectangle2) {
-	} else {
-	}
+
 //	рисуем прямоугольники
 	getDrawingRectangles(widthRectangle1, lengthRectangle1, widthRectangle2, lengthRectangle2);
 });
